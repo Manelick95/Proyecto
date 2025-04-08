@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivos</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h2>Subir Archivos</h2>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="file1">📂 Archivo Principal:</label>
+        <input type="file" name="file1" id="file1" required><br>
+
+        <label for="file2">📂 Niveles:</label>
+        <input type="file" name="file2" id="file2" required><br>
+
+        <button type="submit">Subir y Procesar</button>
+    </form>
+    <p id="mensaje"></p>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
